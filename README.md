@@ -29,6 +29,7 @@ This bundle provides the following plugins and bundles:
       [GitHub::Meta]
       [InstallGuide]
       [MetaJSON]
+      [MetaProvides::Package]
       [MinimumPerl]
       [NextRelease]
       [ReadmeFromPod]

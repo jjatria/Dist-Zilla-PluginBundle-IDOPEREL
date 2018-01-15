@@ -17,6 +17,7 @@ use Dist::Zilla::PluginBundle::Basic;
 use Dist::Zilla::PluginBundle::Git;
 use Dist::Zilla::Plugin::VersionFromModule;
 use Dist::Zilla::Plugin::MetaJSON;
+use Dist::Zilla::Plugin::MetaProvides::Package;
 use Dist::Zilla::Plugin::MinimumPerl;
 use Dist::Zilla::Plugin::AutoPrereqs;
 use Dist::Zilla::Plugin::Prereqs;
@@ -62,6 +63,7 @@ This bundle provides the following plugins and bundles:
       [GitHub::Meta]
       [InstallGuide]
       [MetaJSON]
+      [MetaProvides::Package]
       [MinimumPerl]
       [NextRelease]
       [ReadmeFromPod]
@@ -109,6 +111,7 @@ sub configure {
 		'GitHub::Meta',
 		'InstallGuide',
 		'MetaJSON',
+		'MetaProvides::Package',
 		'MinimumPerl',
 		'NextRelease',
 		'TestRelease',
